@@ -1,9 +1,11 @@
 <template>
   <div class="hello">
     <!-- responsive svg -->
-
-    <img src="../assets/lincette.svg" style="width: 100%; height: auto;">
+    <img src="../assets/lincette.svg" class="responsive center">
    
+   
+  </div>
+  <div class="footer">
     <h3>Informations</h3>
     <ul>
       <li><a href="mailto:contact@lincette.be" target="_blank" rel="noopener">contact@lincette.be</a></li>
@@ -32,5 +34,24 @@ li {
 }
 a {
   color: #42b983;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 10%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: #ccc;
 }
 </style>
