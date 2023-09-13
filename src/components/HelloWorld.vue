@@ -6,11 +6,21 @@
    
   </div>
   <div class="footer">
-    <h3>Informations</h3>
+    <h3></h3>
+    <p>
+      La Lincette 🍻 est une bière artisanale créée en 2020 à l'initiative du comité scolaire de l'école de Lincé (Sprimont).
+    </p>
     <ul>
-      <li><a href="mailto:contact@lincette.be" target="_blank" rel="noopener">contact@lincette.be</a></li>
       <li><a href="https://www.facebook.com/groups/429847368281109" target="_blank" rel="noopener">facebook</a></li>
+      <li><a href="mailto:contact@lincette.be" target="_blank" rel="noopener">contact@lincette.be</a></li>
+   
       
+    </ul>
+    <ul class="small">
+      <li>
+        <a href="https://github.com/tintamarre/lincette.be"
+        target="_blank" rel="noopener">code source</a>
+      </li>
     </ul>
   </div>
 </template>
@@ -33,7 +43,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #ccc;
 }
 .responsive {
   width: 100%;
@@ -52,6 +62,9 @@ a {
   bottom: 0;
   width: 100%;
   padding: 20px;
-  color: #ccc;
+  color: #fff;
+}
+.small {
+  font-size: 0.8em;
 }
 </style>
