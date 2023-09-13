@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Welcome to Lincette.be"/>
+  <HelloWorld msg="Bienvenue to Lincette.be"/>
 </template>
 
 <script>
