@@ -1,5 +1,6 @@
 <template>
   <HelloWorld msg="Bienvenue to Lincette.be"/>
+
 </template>
 
 <script>
@@ -25,4 +26,5 @@ body {
   color: #ccc;
   margin-top: 60px;
 }
+
 </style>
