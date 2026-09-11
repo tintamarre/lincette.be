@@ -1,11 +1,10 @@
 <template>
   <div class="hello">
     <!-- responsive svg -->
-    <img src="../assets/lincette.svg" class="responsive center">
- 
+    <img src="../assets/lincette.svg" alt="La Lincette" class="logo">
   </div>
-  <div class="footer responsive">
-    <a class="btn-shop" href=" https://shop.lincette.be">
+  <div class="footer">
+    <a class="btn-shop" href="https://shop.lincette.be">
       Boutique en ligne
     </a>
     <p>
@@ -46,23 +45,24 @@ li {
 .link {
   color: #ccc;
 }
-.responsive {
-  width: 100%;
+.hello {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.logo {
+  display: block;
+  width: 80%;
+  max-width: 480px;
   height: auto;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  margin-top: 10%;
-}
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 90%;
-  padding: 0px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
   color: #fff;
   font-size: 0.85em;
 }

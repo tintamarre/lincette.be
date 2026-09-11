@@ -16,6 +16,7 @@ export default {
 
 <style>
 body {
+  margin: 0;
   background-color: #344c77;
 }
 #app {
@@ -24,7 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ccc;
-  margin-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 </style>
