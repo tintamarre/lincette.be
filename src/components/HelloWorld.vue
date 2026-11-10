@@ -4,11 +4,12 @@
     <img src="../assets/lincette.svg" alt="La Lincette" class="logo">
   </div>
   <div class="footer">
-    <a href="https://shop.lincette.be" class="qr-shop">
-      <img src="../assets/qr-shop.svg" alt="QR code vers shop.lincette.be" width="96" height="96">
-    </a>
     <a class="btn-shop" href="https://shop.lincette.be">
-      Boutique en ligne
+      <img src="../assets/qr-shop.svg" alt="" class="qr" width="72" height="72">
+      <span class="shop-text">
+        Boutique en ligne
+        <span class="shop-url">shop.lincette.be</span>
+      </span>
     </a>
     <p>
       La Lincette 🍻 est une bière artisanale créée en 2020 à l'initiative du comité scolaire de l'école de Lincé (Sprimont).
@@ -70,16 +71,24 @@ li {
   color: #fff;
   font-size: 0.85em;
 }
-.qr-shop {
+.qr {
   display: block;
-  width: 96px;
-  margin: 0 auto 12px;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
 }
-.qr-shop img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
+.shop-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  color: #344c77;
+  font-size: 18px;
+}
+.shop-url {
+  color: #f89019;
+  font-size: 14px;
+  font-weight: 500;
 }
 .small {
   font-size: 0.8em;
@@ -89,7 +98,8 @@ li {
   align-items: center;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
+  border-radius: .75rem;
+  gap: 16px;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.85);
@@ -102,7 +112,7 @@ li {
   line-height: 1.25;
   margin: 0;
   min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  padding: 12px 24px 12px 12px;
   position: relative;
   text-decoration: none;
   transition: all 250ms;
