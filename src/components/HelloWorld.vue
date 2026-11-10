@@ -55,8 +55,9 @@ li {
 }
 .logo {
   display: block;
-  width: 80%;
-  max-width: 480px;
+  /* fill the screen width, but never taller than ~60% of the viewport
+     (the logo is ~4.2:1, so 60vh tall = 252vh wide) */
+  width: min(95%, 252vh);
   height: auto;
 }
 .footer {
