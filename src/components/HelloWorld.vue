@@ -4,6 +4,9 @@
     <img src="../assets/lincette.svg" alt="La Lincette" class="logo">
   </div>
   <div class="footer">
+    <a href="https://shop.lincette.be" class="qr-shop">
+      <img src="../assets/qr-shop.svg" alt="QR code vers shop.lincette.be" width="96" height="96">
+    </a>
     <a class="btn-shop" href="https://shop.lincette.be">
       Boutique en ligne
     </a>
@@ -66,6 +69,17 @@ li {
   box-sizing: border-box;
   color: #fff;
   font-size: 0.85em;
+}
+.qr-shop {
+  display: block;
+  width: 96px;
+  margin: 0 auto 12px;
+}
+.qr-shop img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 .small {
   font-size: 0.8em;
